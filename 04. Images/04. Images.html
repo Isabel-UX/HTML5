@@ -6,21 +6,38 @@
   </head>
   <body>
 
-    <!-- Defines an Image -->
+    <!-- <img> - Defines an Image -->
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" usemap="#mymap">
 
-    <!-- Defines a client-side image map -->
+    <!-- <map> - Defines a client-side image map -->
+    <map name="mymap">
+      <area shape="circle" coords="30,40,1000,300,"  href="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </map>
 
-    <!-- Defines an area inside an image map -->
+    <!-- <area> - Defines an area inside an image map -->
+    <area shape="default" coords="" href="" alt="">
 
-    <!-- Used to draw graphics, on the fly, via scripting (JavaScript)-->
+    <!-- <canvas> - Used to draw graphics, on the fly, via scripting (JavaScript)-->
+      <canvas id="canvas" width="300" height="300"></canvas>
 
-    <!-- Defines a caption for a <figure> element -->
+    <!-- <figcaption> - Defines a caption for a <figure> element -->
+      <figcaption>
+        <img src="chrome://branding/content/about-logo-private.png" alt="Firefox Logo">
+        <figcaption>This is a fig. caption</figcaption>
+      </figcaption>
 
-    <!-- Specifies self-contained content -->
+    <!-- <figure> - Specifies self-contained content -->
+      <figure></figure>
 
-    <!-- Defines a container for multiple image resources -->
+    <!-- <picture> - Defines a container for multiple image resources -->
+      <picture>
 
-    <!-- Defines a container for SVG graphics -->
+      </picture>
+
+    <!-- <svg> -  Defines a container for SVG graphics -->
+      <svg>
+        
+      </svg>
 
   </body>
 </html>
