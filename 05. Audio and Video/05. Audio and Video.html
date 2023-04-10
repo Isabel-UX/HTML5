@@ -6,13 +6,23 @@
   </head>
   <body>
 
-    <!-- Defines sound content -->
+    <!-- <audio> Defines sound content -->
+    <!--  <audio src="https://www.w3schools.com/html/horse.ogg" controls autoplay muted>
 
-    <!-- Defines multiple media resources for media elements (<video>, <audio> and <picture>) -->
+      </audio> -->
 
-    <!-- Defines text tracks for media elements (<video> and <audio>) -->
+    <!-- <source> Defines multiple media resources for media elements (<video>, <audio> and <picture>) -->
+      <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+    
+    <!-- <track> Defines text tracks for media elements (<video> and <audio>) -->
+      <track kind="subtitles" scr="sampleSubtitles_en.srt" scrlang="en">
+      </track>
 
-    <!-- Defines a video or movie-->
+    <!-- <video> Defines a video or movie -->
+      <video src="https://www.w3schools.com/html/mov_bbb.mp4" autoplay="posterimage.jpg" muted loop controls>
+
+      </video>
+      <!-- There are 3 supported video formats, mp4, ogg and peg4  -->
 
   </body>
 </html>
