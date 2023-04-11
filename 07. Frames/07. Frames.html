@@ -6,13 +6,20 @@
   </head>
   <body>
 
-    <!-- Defines a window (a frame) in a frameset -->
+    <!-- HTML4 <frame> Defines a window (a frame) in a frameset NOT SUPPORTED IN HTML5, better use <iframe>-->
+      <frame></frame>
 
-    <!-- Defines a set of frames -->
+    <!-- HTML4 <frameset> Defines a set of frames NOT SUPPORTED IN HTML5, better use <iframe>-->
+      <frameset></frameset>
 
-    <!-- Defines an alternate content for users that do not support frames -->
+    <!-- HTML4 <noframe> Defines an alternate content for users that do not support frames NOT SUPPORTED IN HTML5, better use <iframe>-->
+      <noframe></noframe>
 
-    <!-- Defines an inline frame -->
+    <!-- <iframe> Defines an inline frame, it is used to embed another document within the current HTML document ,
+      a good practise is to use a title attribute for the iframe-->
+      <iframe src="https://www.google.com" width="800" height="600" allow>
+
+      </iframe>
 
   </body>
 </html>
