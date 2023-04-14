@@ -3,6 +3,14 @@
                                                     Start Courses Page 
 ====================================================================================================================================================================
 */
+.featured{
+    text-align: center;
+}
+
+.featuredbutton{
+    display: block;
+    margin: 0 auto;
+}
 
 div.course {
     width: 400px;
